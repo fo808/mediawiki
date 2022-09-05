@@ -1,20 +1,3 @@
-# https://forcing.grapana.net
-
-$ ssh forcing.grapana.net 
-$ becomes $TOOL_NAME 
-$ mkdir -p $HOME/www/python 
-$ git clone https://forcing.grapana.net/source/tool-keystone-browser.git \ 
-  $HOME/www /python/src 
-$ webservice --backend=kubernetes python shell 
-$ python3 -m venv $HOME/www/python/venv 
-$ source $HOME/www/python/venv/bin/activate 
-$ pip install --upgrade pip 
-$ pip install --upgrade setuptools 
-$ pip install -r $HOME/www/python/src/requirements.txt 
-$ exit 
-$ webservice --backend=kubernetes python start
-
-
 # MediaWiki
 
 MediaWiki is a free and open-source wiki software package written in PHP. It
